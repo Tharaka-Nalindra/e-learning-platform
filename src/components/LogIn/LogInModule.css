@@ -1,0 +1,109 @@
+body{
+    background-image: linear-gradient(125deg, #6be9e0 0%, #14163b 20%, #6be9e0 217%);
+    font-family: kanban;
+    height: 800px;
+}
+
+
+
+.LogInPag{
+    display: flex;
+    align-items: center;
+    margin-left: 68px;
+    /* justify-content: center; */
+}
+
+.imgOne{ 
+    width: 500px;
+    height: 282px;
+    border-radius: 9px;
+    border: 1px;
+    margin-top: 0px;
+    margin-left: 200px;
+}
+.imgOne img{ 
+    width: 800px;
+    height: 500px;
+    border-radius: 9px;
+    border: 1px;
+}
+ 
+
+
+.LohInformBody{
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LohInformBody h2{
+    margin-bottom: 7vh;
+    color: #fff;
+    font-size: 50px;
+    margin-left: 13vh;
+}
+
+.formBody p{
+    color: #fff;
+    margin-left: 25px;
+}
+
+.alrady a{
+    margin: 0;
+    color: #6be9e0;
+    text-decoration: none;
+    
+}
+
+.LohInformBody .bottomP {
+    color: #fff;
+    font-size: 14px;
+}
+
+.LohInformBody .bottomP  a{
+    color: #6be9e0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.LohInformBody input[type="text"],
+.LohInformBody input[type="email"],
+.LohInformBody input[type="password"] {
+  background-color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 40vh;
+  margin-top: 15px;
+  
+}
+
+.LohInformBody input::placeholder {
+    color: #918a8a;
+}
+
+
+
+.LogIn-custom-button {
+    margin-top: 30px;
+    background-color: #00CDCD; 
+    color: #fff;
+    border-radius: 8px;
+    width: 90px;
+    height: 35px;
+    margin-left: 118px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+} 
+
+ .SignUp-custom-button:hover {
+    background-color: rgba(44, 44, 45, p0.55); 
+  }
+  
+
+  a{
+    text-decoration: none;
+    color: #fff;
+  }

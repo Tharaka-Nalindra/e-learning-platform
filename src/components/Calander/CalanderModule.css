@@ -1,0 +1,65 @@
+.popoverStyle{
+    z-index: 99999 !important;
+}
+
+a{
+    color: #212529 !important;
+}
+
+.calendar-container {
+    background-color: #1A1C2C;
+    color: white;
+  }
+  
+
+
+/* 
+
+import React from 'react';
+import FullCalendar from '@fullcalendar/react';
+import dayGridPlugin from '@fullcalendar/daygrid';
+import timeGridPlugin from '@fullcalendar/timegrid';
+import interactionPlugin from '@fullcalendar/interaction';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+
+import './CalanderModule.css'; 
+
+function Calendar() {
+  const events = [
+    {
+      title: 'The Title',
+      start: '2023-01-05T08:00:00',
+      end: '2023-01-05T09:00:00',
+    },
+  ];
+
+  return (
+    <div>
+      <FullCalendar
+        plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
+        initialView="dayGridMonth"
+        headerToolbar={{
+          start: 'today prev,next', 
+          center: 'title',
+          end: 'dayGridMonth,timeGridWeek,timeGridDay', 
+        }}
+        height={'90vh'}
+        events={events}
+        eventDidMount={(info) => {
+          new window.bootstrap.Popover(info.el, {
+            title: info.event.title,
+            placement: 'auto',
+            trigger: 'hover',
+            customClass: 'popoverStyle',
+            content: "<p>Please subscribe<strong>Bootstrap popover</strong>.</p>",
+            html: true,
+          });
+        }}
+      />
+    </div>
+  );
+}
+
+export default Calendar;
+
+*/

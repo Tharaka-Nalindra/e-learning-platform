@@ -1,0 +1,143 @@
+.Course-top{
+    margin-top: 0vh;
+    display: flex;
+    width: 1400px;
+  }
+
+.bot{
+    margin-top: 15vh;
+}
+
+.arrivals{ 
+  color: #fff;
+  font-size: 20px;
+}
+
+.arrivals {
+    margin-left: 60px;
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+    /* overflow-x: auto; */
+    align-items: center;
+}
+
+.card {
+    /* flex: 0 0 auto; */
+    margin: 30px 55px 55px 60px; /* Adjust the margin between cards as needed */
+    background-color: rgb(69, 65, 65);
+    height: 310px;
+    border-radius: 10px;
+  }
+.card img{
+    width: 250px;
+    height: 190px;
+  }
+
+  .cName{
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+  }
+  .cTime{
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .value{
+    color: yellow;
+    margin-right: 5px;
+    float: right;
+  }
+  .values{
+    color: yellow;
+    margin-left: 72px;
+    float: right;
+  }
+
+.lecture{
+    display: flex;
+    flex-wrap: nowrap;
+    /* overflow-x: auto; */
+    align-items: center;
+    /* gap: 20px; */
+    margin: 0;
+}
+  
+
+  .lecProfile img{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .Name{
+    color: white;
+    margin-left: 10px;
+    font-size: 10px;
+    width: 80%;
+  }
+
+  .Points {
+    /* margin-left: 130px; */
+    color: yellow;
+    font-size: 12px;
+    width: 20%;
+    float: right;
+  }
+  .Points img{
+    width: 15px;
+    height: 15px;
+  }
+
+  .searchInput{
+    display: flex;
+    margin-left: 50px;
+  }
+
+  .search input{
+    background-color: transparent;;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 18px;
+    height: 30px;
+    width: 300px;
+  }
+
+
+  .searchIcon{
+    /* margin-top: ; */
+    /* height: 60px; */
+    /* width: 50px; */
+    display: grid;
+    place-items: center;
+    margin-left: -50px;
+    margin-top: 43px;
+  }
+
+  .searchIcon svg{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+
+  }
+
+  
+
+  /* .top p{
+    margin-left: 500px;
+    margin: 0;
+  } */
+
+  .topText{
+    margin-left: 127px;
+    margin-top: 30px;
+  }
+  .topText p{
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+  }

@@ -1,0 +1,147 @@
+/* Quizmodule.css */
+
+.nav {
+    height: 30px;
+  }
+  
+  .quizeTopic {
+    /* margin-top: 10vh; */
+    width: 100%;
+  }
+  
+  .quizeTopic p {
+    margin-top: 10vh;
+    margin-left: 5em;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .quizNum {
+    margin-left: 5em;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .quizBody {
+    margin-left: 80px;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .quizBody button {
+    /* margin-top: 6em; */
+    width: 75px;
+    height: 30px;
+  }
+  
+  .quizBody .previouse-btn {
+    margin-top: 6em;
+    background-color: #019393;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .quizBody .Next-btn {
+    margin-top: 0em;
+    background-color: #019393;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .Questions {
+    margin-top: 2em;
+    width: 51em;
+    height: 50vh;
+    background-color: #1A1C2C;
+    border-radius: 20px;
+  }
+  
+  .Question_numbers {
+    /* width: 45vh; */
+    height: 32em;
+    background-color: #1A1C2C;
+    border-radius: 20px;
+  }
+  
+  .number {
+    margin: 29px 10px 0px 10px;
+  }
+  
+  .number button {
+    background-color: white;
+    color: black;
+  }
+  
+  .number button {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: white;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+.nextIconw{
+  float: right;
+  color: white;
+}
+/* .nextIconw{
+  color: #fff;
+} */
+
+
+.number svg{
+  color: #fff;
+}
+.nectArrow svg{
+  float: right;
+}
+
+  .Question h3 {
+    color: #fff;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Questions label {
+    color: white !important;
+    font-size: 18px;
+  }
+
+  .Question-num{
+    margin-top: 10px;
+    color: white;
+    font-size: 25px
+  }
+  
+  input {
+    width: 20px;
+    height: 20px;
+    margin-top: 2.4em;
+    margin-left: 20px;
+  }
+
+  .courseName{
+    color: #fff;
+    margin-top: 2em;
+    margin-left: 5em;
+  }

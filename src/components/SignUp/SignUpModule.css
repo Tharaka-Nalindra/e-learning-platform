@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient(125deg, #6be9e0 0%, #14163b 20%, #6be9e0 217%);
+    font-family: kanban;
+    height: 800px;
+}
+
+
+
+.SignUpPag{
+    display: flex;
+    align-items: center;
+    margin-left: 68px;
+    /* justify-content: center; */
+}
+
+.imgOne{ 
+    width: 500px;
+    height: 282px;
+    border-radius: 9px;
+    border: 1px;
+    margin-top: 0px;
+    margin-left: 200px;
+}
+.imgOne img{ 
+    width: 800px;
+    height: 500px;
+    border-radius: 9px;
+    border: 1px;
+}
+ 
+.PageCar img{
+    margin-top: 20vh;
+    align-items: center;
+    width: 80vh;
+    height: 50vh;
+    filter: brightness(40%);
+}
+
+.SignUpformBody{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignUpformBody h2{
+    margin-bottom: 7vh;
+    color: #fff;
+    font-size: 50px;
+    margin-left: 13vh;
+}
+
+.formBody p{
+    color: #fff;
+    margin-left: 25px;
+}
+
+.alrady a{
+    margin: 0;
+    color: #6be9e0;
+    text-decoration: none;
+    
+}
+
+.SignUpformBody .bottomP {
+    color: #fff;
+    font-size: 14px;
+}
+
+.SignUpformBody .bottomP  a{
+    color: #6be9e0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.SignUpformBody input[type="text"],
+.SignUpformBody input[type="email"],
+.SignUpformBody input[type="password"] {
+  background-color: #fff;
+  height: 35px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 40vh;
+  margin-top: 15px;
+  
+}
+
+.SignUpformBody input::placeholder {
+    color: #918a8a;
+}
+
+
+
+.SignUp-custom-button {
+    margin-top: 10px;
+    background-color: #00CDCD; 
+    color: #fff;
+    border-radius: 8px;
+    width: 90px;
+    height: 35px;
+    margin-left: 118px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+} 
+
+ .SignUp-custom-button:hover {
+    background-color: rgba(44, 44, 45, p0.55); 
+  }
+  
+
+  a{
+    text-decoration: none;
+    color: #fff;
+  }

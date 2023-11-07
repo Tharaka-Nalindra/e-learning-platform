@@ -1,0 +1,207 @@
+body{
+    width: 100%; /* */
+}
+.Dashboard{
+    display: flex;
+    background-color: rgb(59, 59, 93);
+}
+.Dashboard .options{
+    width: 30vh;
+    background-color:  #1A1C2C;
+    height: 750px;
+    border-radius: 0 20px 25px 0;
+}
+.CgProfile-icon{
+    width: 80px;
+    height: 80px;
+    color: rgb(102, 102, 158);
+    /* margin-left: 86px;
+    margin-top: 25px;
+    margin-bottom: 0; */
+    margin: 25px 0px 20px 70px;
+}
+.Dashboard .content{
+    width: 80%;
+    /* background-color: rgb(96, 96, 119); */
+}
+
+.Dash-links {
+    list-style: none;
+}
+
+.Dash-links li{
+    margin-bottom: 50px;
+
+}
+
+.Dash-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Dash-links li a:hover {
+    background-color: #00CDCD;
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: white; /* Change text color to white when hovering */
+}
+
+
+/* -------------------------------------------------- */
+.heder{
+    display: flex;
+    height: 40px;
+    margin-top: 15px;
+    gap: 20px;
+}
+.heder Button{
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #019393;
+    ;
+    border: none;
+    border-radius: 10px;
+    margin-left: 130vh;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.heder svg{
+    width: 45px;
+    height: 45px;
+    color: #fff;
+}
+
+/* ------------------------------------------------ */
+
+
+
+.HomeresentCourse{
+    margin-top: 10vh;
+    display: flex;
+    gap: 60px;
+}
+
+.HomeTitle{
+    margin-top: -55px;
+    display: flex;
+}
+
+.HomeTitle svg{
+    color: #019393;
+    margin-left: 2em;
+    margin-top: 18px;
+}
+
+.HomeTitle h3{
+    color: white;
+    font-size: 20px;
+}
+
+
+.collI{
+    background-color: #1A1C2C;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.HomecourseI{
+    background-color: rgb(59, 59, 93);
+    width: 28vh;
+    height: 30vh;
+    border-radius: 20px;
+    margin: 20px;
+    /* display: flex; */
+}
+.HomecourseII{
+    background-color: rgb(25, 25, 130);
+    width: 28vh;
+    height: 30vh;
+    border-radius: 20px;
+    margin: 20px;
+    /* display: flex; */
+}
+.HomecourseI p{
+    height: 10px;
+    margin: 25px 0px 0px 15px;
+    font-size: 15px;
+    color: #fff;
+}
+.HomecourseII p{
+    height: 10px;
+    margin: 25px 0px 0px 15px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+.score{
+    width: 15px;
+    height: 80px;
+    background-color: #019393;
+    margin: 0 0 0 15px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.content{
+    display: flex;
+    gap: 20px;
+}
+
+
+.prasentage{
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.progress-bar{
+    margin:10px;
+    width: 90%;
+    height: 15px;
+    border-radius: 30px;
+    background-color: #1A1C2C;
+    border: 2px solid white;
+}
+
+.Home-progress-bar-fill{
+    height: 100%;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #019393;
+    transition: width 0.5s ease-out;
+}
+
+.progress-lable{
+    display: flex;
+    margin-left:10px;
+    margin-top: 130px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(123, 113, 113);
+}
+
+.pro-date{
+    margin-left: 6.5em;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.content-left h5{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
