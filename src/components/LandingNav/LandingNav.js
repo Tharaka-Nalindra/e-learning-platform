@@ -15,8 +15,8 @@ export default function Nav() {
           <li><Link to="#">Courses</Link></li>
           <li><Link to="#">Assignments/Quiz</Link></li>
           <li><Link to="#">About Us</Link></li>
-          <li><Link to="#">Login</Link></li>
-          <li><Link to="#">Sign Up</Link></li>
+          <li><Link to="/LogIn">Login</Link></li>
+          <li><Link to="/SignUp">Sign Up</Link></li>
         </ul>
        
       </nav>
