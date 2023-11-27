@@ -12,7 +12,7 @@ export default function Nav() {
         
         
         <ul className="Landinnav-links" >
-          <li><Link to="#">Courses</Link></li>
+          <li><Link to="/CourseHome">Courses</Link></li>
           <li><Link to="#">Assignments/Quiz</Link></li>
           <li><Link to="#">About Us</Link></li>
           <li><Link to="/LogIn">Login</Link></li>

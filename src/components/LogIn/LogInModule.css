@@ -48,6 +48,10 @@ body{
     color: #fff;
     margin-left: 25px;
 }
+.formBody{
+    align-items: center;
+    justify-content: center;
+}
 
 .alrady a{
     margin: 0;
@@ -71,10 +75,10 @@ body{
 .LohInformBody input[type="email"],
 .LohInformBody input[type="password"] {
   background-color: #fff;
-  height: 35px;
+  height: 45px;
   border-radius: 20px;
   padding: 10px;
-  width: 40vh;
+  width: 50vh;
   margin-top: 15px;
   
 }
@@ -87,23 +91,29 @@ body{
 
 .LogIn-custom-button {
     margin-top: 30px;
-    background-color: #00CDCD; 
+    background-color: #00CDCD !important; 
     color: #fff;
     border-radius: 8px;
     width: 90px;
     height: 35px;
-    margin-left: 118px;
+    margin-left: 118px !important;
     cursor: pointer;
     font-size: 20px;
     border: none;
 } 
 
  .SignUp-custom-button:hover {
-    background-color: rgba(44, 44, 45, p0.55); 
+    background-color: rgba(44, 44, 45, p0.55) !important; 
   }
   
 
   a{
     text-decoration: none;
     color: #fff;
+  }
+  .bottomP{
+    padding-top: 30px;
+  }
+  .btn{
+    margin-left: 90px;
   }

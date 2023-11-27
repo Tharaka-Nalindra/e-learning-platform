@@ -15,13 +15,34 @@ const SignUp = () => {
   const[password,setPassword]=useState();
   const navigate = useNavigate()
 
-  const handleSubmit = (e) =>{
+  // const handleSubmit = (e) =>{
+  //   e.preventDefault()
+  //   axios.post('http://localhost:5000/api/createpost', {name,email,password})
+  //   .then(result => {console.log(result)
+  //   navigate('/LogIn')
+  //   })
+  //   .catch(err => console.log(err))
+  // }
+
+
+  const onSubmitHandler = async (e)=>{
     e.preventDefault()
-    axios.post('http://localhost:3001/register', {name,email,password})
-    .then(result => {console.log(result)
-    navigate('/LogIn')
-    })
-    .catch(err => console.log(err))
+
+    try{
+      const response = await fetch("http://localhost:5000/api/createstudent",{
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ name,email,password}),
+      });
+      
+      alert("successfully Registered")
+      navigate("/LogIn")
+
+    }catch(error){
+
+    }
   }
 
 
@@ -31,20 +52,20 @@ const SignUp = () => {
       <div className="SignUpPag">
         <div className="SignUpformBody">
           <div className="formBody">
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={onSubmitHandler}>
               <h2>SignUp</h2>
               <p className="alrady">Already have an account? <Link to="/LogIn">Login</Link> here.</p>
               <Form.Group className="mb-3" controlId="formBasicName">
                 {/* <Form.Control type="text" placeholder="Name"/> */}
-                <input type="text" placeholder="Name" name="name" autoComplete="off" onChange={(e) => setName(e.target.value)}/>
+                <input type="text" required placeholder="Name" name="name" autoComplete="off" onChange={(e) => setName(e.target.value)}/>
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 {/* <Form.Control type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)}/> */}
-                <input type="email" placeholder="Email" name="email" autoComplete="off" onChange={(e) => setEmail(e.target.value)}/>
+                <input type="email" required placeholder="Email" name="email" autoComplete="off" onChange={(e) => setEmail(e.target.value)}/>
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicPassword">
                 {/* <Form.Control type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)}/> */}
-                <input type="password" placeholder="Password" name="password" autoComplete="off" onChange={(e) => setPassword(e.target.value)}/>
+                <input type="password" required placeholder="Password" name="password" autoComplete="off" onChange={(e) => setPassword(e.target.value)}/>
               </Form.Group>
               
               <p className="bottomP">By creating an account, you agree to our <Link to="#">terms and conditions</Link></p>

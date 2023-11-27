@@ -11,10 +11,10 @@ export default function Nav() {
         
         
         <ul className="nav-links" >
-          <li><Link to="/Courses">Courses</Link></li>
+          <li><Link to="/CourseHome">Courses</Link></li>
           <li><Link to="/Quiz">Assignments/Quiz</Link></li>
           <li><Link to="/AboutUs">About Us</Link></li>
-          <li><Link to="/Setting">Login</Link></li>
+          <li><Link to="/LogIn">Login</Link></li>
         </ul>
         
        

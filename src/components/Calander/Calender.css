@@ -1,0 +1,244 @@
+.scheduule{
+    display: flex;
+    background-color: rgb(59, 59, 93);
+    gap: 3rem;
+
+}
+.calenderr{
+    padding-top: 2rem;
+}
+.scheduule .options{
+    width: 200px;
+    background-color:  #1A1C2C;
+    height: 750px;
+    border-radius: 0 20px 25px 0;
+}
+.CgProfile-icon{
+    width: 80px;
+    height: 80px;
+    color: rgb(102, 102, 158);
+    /* margin-left: 86px;
+    margin-top: 25px;
+    margin-bottom: 0; */
+    margin: 25px 0px 20px 70px;
+}
+.scheduule .content{
+    width: 80%;
+    /* background-color: rgb(96, 96, 119); */
+}
+
+.Dash-links {
+    list-style: none;
+}
+
+.Dash-links li{
+    margin-bottom: 50px;
+
+}
+
+.Dash-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Dash-links li a:hover {
+    background-color: #00CDCD;
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: white; /* Change text color to white when hovering */
+}
+
+
+/* -------------------------------------------------- */
+.heder{
+    display: flex;
+    height: 40px;
+    margin-top: 15px;
+    gap: 20px;
+}
+.heder Button{
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #019393;
+    ;
+    border: none;
+    border-radius: 10px;
+    margin-left: 130vh;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.heder svg{
+    width: 45px;
+    height: 45px;
+    color: #fff;
+}
+
+/* ------------------------------------------------ */
+.content-left{
+    margin-left: 40px;
+}
+
+
+.resentCourse{
+    display: flex;
+    gap: 50px;
+}
+
+.courseI{
+    background-color: #1A1C2C;
+    width: 46.7vh;
+    height: 35vh;
+    border-radius: 20px;
+    color: #fff;
+    /* display: flex; */
+}
+.courseI p{
+    margin: 25px 0px 0px 25px;
+    font-size: 20px;
+}
+
+.homeWork{
+    margin-top: 50px;
+}
+
+.homeWork .HomeWorkI{
+    background-color: #1A1C2C;
+    width: 100vh;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.homeWork .HomeWorkI p{
+    font-size: 18px;
+    margin: 10px;
+    color: #fff;
+}
+
+.score{
+    width: 15px;
+    height: 80px;
+    background-color: #019393;
+    margin: 0 0 0 15px;
+    border-radius: 10px;
+}
+
+.calander{
+    background-color: #1A1C2C;
+    width: 40vh;
+    height: 38vh;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+.done{
+    background-color: #1A1C2C;
+    width: 35vh;
+    height: 25vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    /* align-items: center; */
+    color: white;
+}
+.done img{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
+
+.schedule{
+    margin-top: 10vh;
+    gap: 50px;
+    margin-left: 10vh;
+}
+
+.content{
+    display: flex;
+    gap: 20px;
+}
+
+.Date-prasentage{
+    display: flex;
+    margin-left: auto;
+}
+
+.prasentage{
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.date{
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.dashprogress-bar{
+    margin:10px;
+    width: 90%;
+    height: 20px;
+    border-radius: 30px;
+    background-color: #1A1C2C;
+    border: 2px solid white;
+}
+
+.progress-bar-fill{
+    height: 100%;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #019393;
+    transition: width 0.5s ease-out;
+}
+
+.dashprogress-lable{
+    margin-left:10px;
+    margin-top: 115px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(123, 113, 113);
+}
+
+.content-left h5{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.homeWork h5{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.schedule h5{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    /* border-color: inherit;
+    border-style: solid;
+    border-width: 0; */
+    background-color: #1A1C2C;
+}
+/* .PopoverStyle{
+    z-index: 99999 !important;
+
+}
+a{
+    color: #212529;
+} */
+.fc, .fc *, .fc ::after, .fc ::before {
+    box-sizing: border-box;
+    color: #fff;
+}

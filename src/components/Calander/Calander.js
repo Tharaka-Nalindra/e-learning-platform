@@ -5,7 +5,7 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import * as bootstrap from "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./CalanderModule.css";
+// import "./CalanderModule.css";
 
 function Calendar() {
   const events = [

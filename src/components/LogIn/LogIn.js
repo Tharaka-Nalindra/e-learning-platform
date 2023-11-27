@@ -22,7 +22,7 @@ const Login = () => {
 
   const handleSubmit = (e) =>{
     e.preventDefault()
-    axios.post('http://localhost:3001/login', {email,password})
+    axios.post('http://localhost:5000/api/loginstudent', {email,password})
     .then(result => {
       console.log(result)
       if(result.data === "success"){
@@ -49,12 +49,12 @@ const Login = () => {
 
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 {/* <Form.Control type="email" placeholder="email"/> */}
-                <input type="email" placeholder="Email" name="email" autoComplete="off" onChange={(e) => setEmail(e.target.value)}/>
+                <input type="email" required placeholder="Email" name="email" autoComplete="off" onChange={(e) => setEmail(e.target.value)}/>
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
                 {/* <Form.Control type="password" placeholder="Password"/> */}
-                <input type="password" placeholder="Password" name="password" autoComplete="off" onChange={(e) => setPassword(e.target.value)}/>
+                <input type="password" required placeholder="Password" name="password" autoComplete="off" onChange={(e) => setPassword(e.target.value)}/>
               </Form.Group>
  
               

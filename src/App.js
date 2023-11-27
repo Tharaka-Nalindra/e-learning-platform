@@ -13,7 +13,9 @@ import TherdNav from './components/TherdNav/TherdNav';
 import Courses from './components/Courses/Courses';
 import AboutUs from './components/AboutUs/AboutUs';
 import Setting from './components/Settings/Settings';
-// import Calander from './components/Calander/Calander'
+import Addcourse from "./components/Courses/Addcourse";
+// import Calander from './components/Calander/Calander';
+import Calender from "./components/Calander/Calender";
 // import Nav from './components/Navbar/Nav';
 // import './App.css';
 
@@ -28,15 +30,17 @@ function App() {
           <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/Homework" element={<Homework />} />
           <Route path="/" element={<LandingPage />} />
+          <Route path="/addcourse" element={<Addcourse />} />
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/LogIn" element={<LogIn />} />
           <Route path="/CourseHome" element={<CourseHome />} />
           <Route path="/Quiz" element={<Quiz />} />
           <Route path="/Progress" element={<Progress />} />
           <Route path="/TherdNav" element={<TherdNav />} />
-          <Route path="/cou" element={<Courses />} />
+          <Route path="/courses" element={<Courses />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Setting" element={<Setting />} />
+          <Route path="/schedule" element={<Calender />} />
           {/* <Route path="/" element={<Calander />} /> */}
           {/* <Route path="/" element={<Nav />} /> */}
 

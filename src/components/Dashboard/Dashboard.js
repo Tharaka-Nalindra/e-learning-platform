@@ -13,9 +13,9 @@ export default function Dashboard(){
                 <CgProfile className="CgProfile-icon"/>
             <ul className="Dash-links" >
                 <li><Link to="/Dashboard" >Dashboard</Link></li>
-                <li><Link to="/CourseHome">Schedule</Link></li>
+                <li><Link to="/schedule">Schedule</Link></li>
                 <li><Link to="/Homework">Homework</Link></li>
-                <li><Link to="/CourseHome">Courses</Link></li>
+                <li><Link to="/courses">Courses</Link></li>
                 <li><Link to="/Progress">Progress</Link></li>
                 <li><Link to="#">Settings</Link></li>
                 <li><Link to="#">Help</Link></li>
