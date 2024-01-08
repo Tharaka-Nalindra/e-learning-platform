@@ -49,7 +49,7 @@ export default function Course() {
             <Link to="/Dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link to="/CourseHome">Schedule</Link>
+            <Link to="/schedule">Schedule</Link>
           </li>
           <li>
             <Link to="/Homework">Homework</Link>
@@ -78,7 +78,11 @@ export default function Course() {
           <div className="course-content-content-left">
             <h5>Resent Course</h5>
             <div className="courserow">
-            {course}
+            <Link to="/Progress">
+            <div className="courserow2">
+             {course}
+            </div>
+            </Link>
             </div>
             
           </div>

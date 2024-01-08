@@ -23,29 +23,29 @@ const CourseHome = () => {
       value:"$155"
     },
     {
-      img: webImg,
+      img: psycholoy,
       cName: "Introduction to Psychology",
-      cTime: "5 hrs/5 video",
+      cTime: "15 hrs/10 video",
       lecProfile: profile1,
-      Name: "John Rick",
+      Name: "Arshad Mohamad",
       Points: "4.6",
       value:"$155"
     },
     {
-      img: webImg,
+      img: uiUx,
       cName: "Complete Guide to UI/UX Designing",
-      cTime: "5 hrs/5 video",
+      cTime: "20 hrs/10 video",
       lecProfile: profile1,
       Name: "John Rick",
       Points: "4.6",
       value:"$155"
     },
     {
-      img: webImg,
+      img: beginneruideImg,
       cName: "Beginner Guide to Sewing",
-      cTime: "5 hrs/5 video",
+      cTime: "2 hrs/3 video",
       lecProfile: profile1,
-      Name: "John Rick",
+      Name: "Kylie Hudson",
       Points: "4.6",
       value:"$155"
     },
@@ -63,7 +63,7 @@ const CourseHome = () => {
       <div iv className="Course-top">
         <div className="search">
           <div className="searchInput">
-            <input
+            <input 
               type="text"
               id="searchInput"
               placeholder="search here"
@@ -90,7 +90,7 @@ const CourseHome = () => {
         <div className="arrivals">New Arrivals</div>
         <div className="cards" >
           {CardData.filter((item) => {
-            if (searchTerm == "") {
+            if (searchTerm === "") {
               return item;
             } else if (
               item.cName.toLowerCase().includes(searchTerm.toLowerCase())
@@ -127,33 +127,7 @@ const CourseHome = () => {
             );
           })}
           </div>
-          {/* <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={beginneruideImg}/>
-            <Card.Body>
-              <Card.Title className="cName">Beginner Guide to Sewing<div className="values">30$</div></Card.Title>
-              <Card.Title className="cTime">2 hrs/3 video</Card.Title>
-              <Card.Text>
-              
-              </Card.Text>
-              
-
-              <div className="lecture">
-                <div className="lecProfile">
-                  <Card.Img  src={profile1}/>
-                  
-                </div>
-                <div className="Name">Kylie Hudson</div>
-                <div className="Points">
-                <Card.Img  src={star}/>
-                {' '} 4.6
-                </div>
-
-                
-              </div>
-
-            </Card.Body>
-          </Card>
-
+          {/* 
           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={psycholoy}/>
             <Card.Body>

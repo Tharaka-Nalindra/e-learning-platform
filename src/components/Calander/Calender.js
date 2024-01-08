@@ -29,7 +29,7 @@ const Calender = () => {
         useEffect(() => {
             const fetchEvents = async () => {
             try {
-                const response = await fetch('http://localhost:5000/api/postevent');
+                const response = await fetch('http://localhost:5000/api/getevent');
                 if (response.ok) {
                 const events = await response.json();
                 setCalendarEvents(events);

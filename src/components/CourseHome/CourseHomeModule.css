@@ -47,9 +47,10 @@
 .card {
     /* flex: 0 0 auto; */
     margin: 30px 40px 55px 50px; /* Adjust the margin between cards as needed */
-    background-color: rgb(69, 65, 65);
+    background-color: #1A1C2C !important;
     height: 310px;
     border-radius: 10px;
+    color: #fff !important;
   }
 .card img{
     width: 286px;
@@ -118,7 +119,7 @@ element.style {
   .searchInput{
     display: flex;
     margin-left: 50px;
-    color: #fff;
+    color: #fff !important;
   }
 
   .search input{
