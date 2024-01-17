@@ -1,0 +1,20 @@
+h1{
+    color: #fff;
+    font-size: 8vh;
+    margin-left: 25vh;
+}
+
+label{
+    color: #fff;
+    font-size: 2vh;
+    margin-left: 40px;
+    font-weight: 100px;
+}
+
+.HomeBackButton a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10vh;
+    margin-left: 40px;
+}

@@ -67,17 +67,19 @@
     height: 50vh;
     background-color: #1A1C2C;
     border-radius: 20px;
+    /* display: flex; */
+    /* float: left; */
   }
   
   .Question_numbers {
-    /* width: 45vh; */
+    width: 40vh;
     height: 32em;
     background-color: #1A1C2C;
     border-radius: 20px;
   }
   
   .number {
-    margin: 29px 10px 0px 10px;
+    margin: 15px 10px 0px 10px;
   }
   
   .number button {
@@ -88,17 +90,23 @@
   .number button {
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
-    background: white;
+    background: #fff;
     font-size: 20px;
-    color: black;
+    color: black !important;
     cursor: pointer;
     margin: 20px;
   }
+
+  .number{
+    color: #000;
+  }
   
+
+
 .nextIconw{
   float: right;
   color: white;
@@ -107,6 +115,9 @@
   color: #fff;
 } */
 
+.abc{
+  float: left;
+}
 
 .number svg{
   color: #fff;
@@ -125,18 +136,21 @@
   .Questions label {
     color: white !important;
     font-size: 18px;
+    display: inline-block;
   }
+  
 
   .Question-num{
-    margin-top: 10px;
+    margin-top: -0.5em;
     color: white;
-    font-size: 25px
+    font-size: 25px;
+    float: left;
   }
   
   input {
     width: 20px;
     height: 20px;
-    margin-top: 2.4em;
+    margin-top: 1.5em;
     margin-left: 20px;
   }
 
@@ -144,4 +158,30 @@
     color: #fff;
     margin-top: 2em;
     margin-left: 5em;
+  }
+
+  /* .question-button {
+    margin: 5px;
+  } */
+  
+  .question-button.selected {
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+
+  
+
+  .answers::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .QAnswer label {
+    display: block;
+  }
+  
+  .QAnswer input[type="radio"] {
+    margin-bottom: 10px;
   }

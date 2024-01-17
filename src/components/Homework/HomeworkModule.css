@@ -117,7 +117,17 @@ body{
     border-radius: 20px;
     margin: 20px;
     /* display: flex; */
+    
 }
+.HomecourseI a{
+    text-decoration: none;
+    color: #fff;
+}
+.HomecourseII a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .HomecourseII{
     background-color: rgb(25, 25, 130);
     width: 28vh;

@@ -1,0 +1,12 @@
+/* src/MediaPage.css */
+.media-page {
+    text-align: center;
+    /* margin-top: 50px; */
+  }
+  
+  img {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+  }
+  

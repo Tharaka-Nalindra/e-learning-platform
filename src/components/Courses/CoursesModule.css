@@ -3,10 +3,11 @@
     background-color: rgb(59, 59, 93);
 }
 .Dashboard .options{
-    width: 30vh;
+    width: 40vh;
     background-color:  #1A1C2C;
     height: 750px;
     border-radius: 0 20px 25px 0;
+    
 }
 .CgProfile-icon{
     width: 80px;
@@ -24,6 +25,7 @@
 
 .Dash-links {
     list-style: none;
+
 }
 
 .Dash-links li{
@@ -52,6 +54,7 @@
     height: 40px;
     margin-top: 15px;
     gap: 20px;
+    padding-bottom: 5rem;
 }
 .heder Button{
     width: 200px;
@@ -62,10 +65,10 @@
     border: none;
     border-radius: 10px;
     margin-left: 130vh;
-    color: white;
+    color: white !important;
     font-weight: bold;
     font-size: 18px;
-
+    text-decoration: none !important;
 }
 
 .heder svg{
@@ -73,7 +76,9 @@
     height: 45px;
     color: #fff;
 }
-
+.btn-primary{
+    color: #fff !important;
+}
 
 /* ----------------------------------------- */
 .course-content{
@@ -95,10 +100,13 @@
     width: 2px;
     height: 100%;
     background-color: #fff;
+    margin-left: -50px;
 }
 .course-content-content-right{
     width: 25%;
     height: 100%;
+    padding-right: 3rem;
+    padding-left: 3em;
     /* background-color: #633250; */
 }
 .course-content-content-right h5{
@@ -106,31 +114,43 @@
     margin-left: 2em;
     font-size: 20px;
 }
-
+.courserow{
+    display: flex;
+    gap: 2rem;
+    padding-left: 3rem;
+    flex-wrap: wrap;
+}
+.courserow2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-left: 3rem;
+}
 .course-coursePage{
     display: flex;
     width: 100%;
     height: 75%;
+    cursor: pointer;
 }
 
-.courseCol1{
+/* .courseCol1{
     width: 33.33%;
     height: 100%;
-}
-.courseCol2{
+} */
+/* .courseCol2{
     width: 33.33%;
     height: 100%;
-}
-.courseCol3{
+} */
+/* .courseCol3{
     width: 33.33%;
     height: 100%;
-}
+} */
 
 .courses-coursePage{
     width: 15em;
     height: 12em;
     background-color: #1A1C2C;
-    margin: 2em auto 5em auto;
+    margin: 2em auto 0em auto;
     border-radius: 10px;
 }
 
@@ -182,4 +202,7 @@
     height: 7em;
     margin: 0.5em 2em 0.5em 2em ;
 
+}
+.completeCourse{
+    padding-top: 17px;
 }
